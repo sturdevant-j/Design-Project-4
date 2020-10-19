@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+
+            <!-- Just an image -->
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand img-fluid mb-3" href="index.html">
+            <img src="images/logo-dans-meat-yogurt.svg" width="160" height="160" alt="Dan's Vegan Meat Flavored Yogurt" loading="lazy">
+            </a>
+        </nav>
+
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+            <!-- BUTTON DROPDOWN -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto float-right">
+                    
+                    <li class="nav-item dropdown btn btn-outline-light mr-4" style="width:110px;"> 
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Flavors
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Chicken</a>
+                            <a class="dropdown-item" href="#">Ham</a>
+                            <!-- <div class="dropdown-divider"></div> -->
+                            <a class="dropdown-item" href="#">Beef</a>
+                        </div>
+                    </li>
+
+                     <!-- BUTTON NORMAL -->
+                    <li class="nav-item btn btn-outline-light" style="width:110px;">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+
+                </ul>
+               
+            </div>
+        </nav>
+
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+          <div class="row">
+              <div class="col-12 col-md-7 text-center text-md-left">
+                <h1 class="display-3 text-white drop-shadow">Thick & Creamy</h1>
+                <p class="lead">With vegan meat chunks</p>
+                
+                <a class="btn btn-outline-light btn-lg mt-4 px-5 py-3 mb-5 mb-md-0" href="#" role="button">Pricing</a>
+                
+              </div>
+
+              <div class="col-12 col-md-5">
+                <img src="images/hero1.png" alt="Dan's Vegan Meat Yogurt" class="img-fluid">
+              </div>
+          </div>
+        </div>
+
+        <!-- Founder's Message -->
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <img src="images/headshot-dan.jpg" class="img-fluid border rounded-left border-lrg border-0" alt="Founder Dan Vegan Meat Yogurt Founder">
+            </div>
+            <div class="col-12 col-md-8 bg-white p-5 d-flex align-items-center border border-dark border rounded-right border-lrg">
+                <section>
+                    <h2>Message from our founder</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex numquam pariatur officiis perspiciatis, quam rem impedit, cupiditate fugiat sed culpa repellat quas iure natus maxime eius sequi unde cum nulla cumque! Ipsum ratione iure accusantium dignissimos omnis quos officia doloremque beatae ea. Impedit, quia ratione. Dignissimos autem cupiditate at iure blanditiis! Alias, consequuntur molestiae nulla consectetur fugiat numquam necessitatibus accusamus.</p>
+                </section>
+            </div>
+        </div>
+
+        <!-- Carousel -->
+        <div id="carouselExampleControls" class="carousel slide d-none d-md-block carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="500">
+                    <img src="images/yogurt-1.png" class="d-block w-100" alt="vanilla yogurt">
+                </div>
+                <div class="carousel-item" data-interval="500">
+                    <img src="images/yogurt-2.png" class="d-block w-100" alt="plain yogurt">
+                </div>
+                <div class="carousel-item" data-interval="500">
+                    <img src="images/yogurt-3.png" class="d-block w-100" alt="chocolate yogurt">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Cards -->
+        <div class="card-deck my-5">
+
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/product1.png" class="card-img-top" alt="yogurt">
+                <div class="card-body">
+                    <h5 class="card-title">Vegan Chicken Yogurt</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at aspernatur saepe in illo, a maxime architecto dicta excepturi eius?</p>
+                    <a href="http://www.bringyourownlaptop.com" class="btn btn-primary stretched-link">Learn More</a>
+                </div>
+            </div>
+    
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/product2.png" class="card-img-top" alt="yogurt">
+                <div class="card-body">
+                    <h5 class="card-title">Vegan Ham Yogurt</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi excepturi exercitationem ab eos, id vel sed facere dolorum fugiat accusamus.</p>
+                    <a href="http://www.bringyourownlaptop.com" class="btn btn-primary stretched-link">Learn More</a>
+                </div>
+            </div>
+    
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/product3.png" class="card-img-top" alt="yogurt">
+                <div class="card-body">
+                    <h5 class="card-title">Vegan Beef Yogurt</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores inventore sequi eius commodi consectetur, incidunt modi cum doloremque maiores quisquam.</p>
+                    <a href="http://www.bringyourownlaptop.com" class="btn btn-primary stretched-link">Learn More</a>
+                </div>
+            </div>
+    
+        </div>
+        </div>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
